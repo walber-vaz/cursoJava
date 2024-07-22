@@ -9,5 +9,9 @@ public class EstruturasCondicionais {
         } else {
             System.out.println("Menor de idade");
         }
+
+        // Estrutura condicional ternario
+        String resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
+        System.out.println(resultado);
     }
 }
